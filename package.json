@@ -13,6 +13,7 @@
     "react": "^0.10.0",
     "express": "^3.5.1",
     "node-jsx": "^0.10.0",
-    "underscore": "^1.6.0"
+    "underscore": "^1.6.0",
+    "benchmark": "^1.0.0"
   }
 }
