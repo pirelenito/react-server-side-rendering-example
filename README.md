@@ -14,6 +14,12 @@ Start the server
 npm start
 ```
 
+Run the benchmark
+
+```shell
+npm test
+```
+
 ## Tooling support
 
 * [Sublime Linter jsxhint](https://github.com/SublimeLinter/SublimeLinter-jsxhint)
