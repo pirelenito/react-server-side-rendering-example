@@ -16,11 +16,16 @@ var ArticlePreview = React.createClass({
 
         <h1>{article.title}</h1>
         <p>{article.summary}</p>
-        <a href={article.url}></a>
+        <a href={article.url} onClick={handleClick}></a>
       </article>
     );
   }
 });
+
+
+function handleClick () {
+  console.log('Make something!');
+}
 
 
 module.exports = ArticlePreview;
