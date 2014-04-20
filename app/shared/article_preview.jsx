@@ -9,10 +9,12 @@ var ArticlePreview = React.createClass({
 
     return (
       <article>
+        <input type="text" />
         <figure>
           <img src={article.figure} alt=""/>
           <figcaption>{article.figureCaption}</figcaption>
         </figure>
+
 
         <h1>{article.title}</h1>
         <p>{article.summary}</p>
